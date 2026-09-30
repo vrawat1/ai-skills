@@ -1,0 +1,21 @@
+{
+  "name": "transaction-review-plugin",
+  "version": "0.1.0",
+  "description": "Evidence-backed, read-only code-change reviews with focused validation guidance.",
+  "author": {
+    "name": "Vijay Rawat",
+    "url": "https://github.com/vrawat1"
+  },
+  "repository": "https://github.com/vrawat1/ai-skills",
+  "keywords": ["code-review", "transaction-review", "validation"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Transaction Review",
+    "shortDescription": "Review supplied code changes without modifying them.",
+    "longDescription": "Provides an evidence-backed, read-only workflow for reviewing supplied source-control transactions, diffs, and code changes.",
+    "developerName": "Vijay Rawat",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "Review this supplied code change and recommend focused validation."
+  }
+}
