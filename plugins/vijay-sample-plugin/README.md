@@ -1,4 +1,4 @@
-# Transaction Review Plugin
+# Vijay Sample Plugin
 
 This plugin packages the `transaction-review` skill for Codex. It reviews supplied source-control transactions, diffs, and code changes without modifying code or external systems.
 

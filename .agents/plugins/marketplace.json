@@ -5,10 +5,10 @@
   },
   "plugins": [
     {
-      "name": "transaction-review-plugin",
+      "name": "vijay-sample-plugin",
       "source": {
         "source": "local",
-        "path": "./plugins/transaction-review-plugin"
+        "path": "./plugins/vijay-sample-plugin"
       },
       "policy": {
         "installation": "AVAILABLE",

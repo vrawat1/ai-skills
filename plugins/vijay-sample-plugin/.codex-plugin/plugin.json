@@ -1,5 +1,5 @@
 {
-  "name": "transaction-review-plugin",
+  "name": "vijay-sample-plugin",
   "version": "0.1.0",
   "description": "Evidence-backed, read-only code-change reviews with focused validation guidance.",
   "author": {
@@ -10,7 +10,7 @@
   "keywords": ["code-review", "transaction-review", "validation"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Transaction Review",
+    "displayName": "Vijay Sample Plugin",
     "shortDescription": "Review supplied code changes without modifying them.",
     "longDescription": "Provides an evidence-backed, read-only workflow for reviewing supplied source-control transactions, diffs, and code changes.",
     "developerName": "Vijay Rawat",
