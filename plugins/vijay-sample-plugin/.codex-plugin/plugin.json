@@ -9,6 +9,7 @@
   "repository": "https://github.com/vrawat1/ai-skills",
   "keywords": ["code-review", "transaction-review", "validation"],
   "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Vijay Sample Plugin",
     "shortDescription": "Review supplied code changes without modifying them.",

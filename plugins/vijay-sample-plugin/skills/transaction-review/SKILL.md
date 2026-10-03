@@ -9,7 +9,7 @@ Review the change artifacts supplied by the user and produce a concise, evidence
 
 ## Inputs
 
-Use the available transaction file list, diff, source files, issue description, and test evidence. State which inputs were available. If no changed files or diff are supplied, request them before claiming to have reviewed the transaction.
+Use the available transaction file list, diff, source files, issue description, and test evidence. State which inputs were available. If no changed files or diff are supplied, use the available `get_git_diff` tool only when the user has explicitly supplied a repository path and asked for a Git diff; otherwise request the missing review artifacts before claiming to have reviewed the transaction.
 
 Treat unstated repository conventions, runtime behavior, and test results as unknown. Do not invent commands, file contents, APIs, issue details, or validation results.
 
