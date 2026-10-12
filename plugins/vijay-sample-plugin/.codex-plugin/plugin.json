@@ -1,6 +1,6 @@
 {
   "name": "vijay-sample-plugin",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Evidence-backed, read-only code-change reviews with focused validation guidance.",
   "author": {
     "name": "Vijay Rawat",
