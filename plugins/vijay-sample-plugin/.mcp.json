@@ -9,6 +9,11 @@
       "command": "./.venv/bin/python",
       "args": ["server/repo_status.py"],
       "cwd": "."
+    },
+    "hello-mcp": {
+      "command": "./.venv/bin/python",
+      "args": ["server/hello_mcp.py"],
+      "cwd": "."
     }
   }
 }
