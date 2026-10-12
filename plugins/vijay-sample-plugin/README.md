@@ -10,10 +10,14 @@ This plugin packages the `transaction-review` skill for Codex. It reviews suppli
 
 `get_git_diff` returns tracked working-tree changes for an explicitly supplied local Git repository. It uses only read-only Git commands and caps returned diff content at 50,000 UTF-8 bytes by default.
 
+`get_repo_status` is a Python MCP tool that returns the repository branch, upstream, ahead/behind counts, and changed files. It is read-only and requires an explicit `repository_path`.
+
 Install server dependencies from this plugin directory before enabling the tool:
 
 ```sh
 npm install
+python3 -m venv .venv
+./.venv/bin/python -m pip install -r requirements.txt
 npm test
 ```
 

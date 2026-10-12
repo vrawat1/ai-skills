@@ -4,6 +4,11 @@
       "command": "node",
       "args": ["server/index.mjs"],
       "cwd": "."
+    },
+    "repo_status": {
+      "command": "./.venv/bin/python",
+      "args": ["server/repo_status.py"],
+      "cwd": "."
     }
   }
 }
